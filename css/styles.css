@@ -48,7 +48,7 @@ p {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  /* outline: 2px solid red; */
+  outline: 2px solid red;
   outline-offset: -2px;
 }
 /**
@@ -473,6 +473,7 @@ p {
 }
 
 .footer-line {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -742,4 +743,46 @@ p {
 .modal-btn:focus {
   background-color: #404bbf;
   fill: #ffffff;
+}
+
+input {
+  display: block;
+}
+
+.subscribe-box {
+}
+
+.Subscribe {
+}
+
+.footer-email {
+  padding: 8px 16px;
+
+  min-width: 264px;
+  height: 40px;
+
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+
+  outline: 2px solid transparent;
+  outline-offset: -2px;
+
+  color: #ffffff;
+  border-color: transparent;
+}
+
+.footer-email:focus-within {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.Subscribe-btn {
+  width: 165px;
+  height: 40px;
+  padding: 8px 24px;
+  gap: 16px;
+
+  text-align: left;
+  color: #ffffff;
+  background: #4d5ae5;
+  border-radius: 4px;
 }

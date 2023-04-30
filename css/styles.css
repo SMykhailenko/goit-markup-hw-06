@@ -669,7 +669,7 @@ p {
 
 /**
   |============================
-  | Modal styles
+  | Modal window
   |============================
 */
 .backdrop {
@@ -742,6 +742,64 @@ p {
 
 /**
   |============================
+  | Modal fields
+  |============================
+*/
+.modal-title {
+  display: block;
+  text-align: center;
+  margin-bottom: 16px;
+
+  color: #2e2f42;
+}
+.modal-form {
+}
+.modal-form-label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+
+  color: #8e8f99;
+}
+
+.modal-form-field {
+  position: relative;
+}
+.modal-form-icon {
+  position: absolute;
+  top: 50%;
+  left: 16px;
+
+  transform: translateY(-50%);
+}
+
+.modal-form-input {
+  width: 360px;
+  height: 40px;
+
+  padding: 0 38px;
+
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  outline: 2px solid transparent;
+  outline-offset: -2px;
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: var(--cubic-hover);
+}
+
+.modal-form-input:focus {
+  outline-color: #4d5ae5;
+}
+
+.privacy-send-btn {
+}
+
+/**
+  |============================
   | Form labels
   |============================
 */
@@ -802,7 +860,7 @@ p {
   justify-content: center;
   text-align: left;
 
-  width: 165px;
+  max-width: 165px;
   height: 40px;
   padding: 8px 24px;
   gap: 16px;

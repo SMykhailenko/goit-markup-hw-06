@@ -750,12 +750,14 @@ p {
 */
 
 .Subscription-txt {
+  display: flex;
   font-weight: 500;
 }
 .subscribe-box {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: 80px;
 }
 
 .Subscribe {

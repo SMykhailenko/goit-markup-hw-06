@@ -434,10 +434,6 @@ p {
   background-color: #31d0aa;
 }
 
-.footer-media {
-  margin-right: 120px;
-}
-
 .social-media {
   font-weight: 500;
   color: #ffffff;
@@ -447,6 +443,7 @@ p {
 .footer-icons {
   width: 208px;
   height: 80px;
+  margin-left: 120px;
 }
 
 .foot-text {
@@ -750,24 +747,25 @@ p {
 */
 
 .Subscription-txt {
-  display: flex;
   font-weight: 500;
+
+  color: #ffffff;
+
+  margin-bottom: 16px;
 }
 .subscribe-box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   margin-left: 80px;
 }
 
 .Subscribe {
   display: flex;
+  justify-items: center;
 }
 
 .footer-email {
   padding: 8px 16px;
 
-  min-width: 264px;
+  width: 264px;
   height: 40px;
 
   border: 1px solid #ffffff;
@@ -775,7 +773,7 @@ p {
 
   outline: 2px solid transparent;
   outline-offset: -2px;
-
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   color: #ffffff;
   background-color: transparent;
 }
@@ -784,6 +782,15 @@ p {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 ::-webkit-input-placeholder {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
   color: #ffffff;
 }
 
@@ -795,10 +802,11 @@ p {
   justify-content: center;
   text-align: left;
 
-  min-width: 165px;
-  min-height: 40px;
+  width: 165px;
+  height: 40px;
   padding: 8px 24px;
   gap: 16px;
+  margin-left: 48px;
 
   cursor: pointer;
 

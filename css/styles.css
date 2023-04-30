@@ -469,7 +469,6 @@ p {
 .foot {
   display: flex;
   align-items: baseline;
-  gap: 120px;
 }
 
 .footer-line {
@@ -754,9 +753,13 @@ p {
   font-weight: 500;
 }
 .subscribe-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .Subscribe {
+  display: flex;
 }
 
 .footer-email {
@@ -782,12 +785,6 @@ p {
   color: #ffffff;
 }
 
-.form-wrap {
-  display: flex;
-  align-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
 .Subscribe-btn {
   position: relative;
   margin: 0;
@@ -796,8 +793,8 @@ p {
   justify-content: center;
   text-align: left;
 
-  width: 165px;
-  height: 40px;
+  min-width: 165px;
+  min-height: 40px;
   padding: 8px 24px;
   gap: 16px;
 

@@ -748,7 +748,8 @@ p {
 .modal-title {
   display: block;
   text-align: center;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
+  margin-top: 72px;
 
   color: #2e2f42;
 }
@@ -758,7 +759,8 @@ p {
 }
 .modal-form-label {
   display: block;
-  margin-bottom: 8px;
+  margin-bottom: 4px;
+  margin-top: 8px;
 
   font-size: 12px;
   line-height: 1.17;
@@ -782,7 +784,7 @@ p {
   width: 360px;
   height: 40px;
 
-  padding: 0 38px;
+  padding-left: 38px;
 
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
@@ -826,7 +828,7 @@ p {
 }
 .privacy-send-btn {
   display: block;
-  margin: 0 auto;
+  margin-top: 16px;
 }
 
 .modal-form-agreement {

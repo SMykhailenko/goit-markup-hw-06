@@ -418,9 +418,7 @@ p {
             Footer
   |============================
 */
-.footer-media {
-  width: 264px;
-}
+
 .foot-social {
   display: flex;
   justify-items: center;
@@ -946,7 +944,7 @@ p {
   height: 40px;
   padding: 8px 24px;
   gap: 16px;
-  margin-left: 48px;
+  margin-left: 24px;
 
   cursor: pointer;
 

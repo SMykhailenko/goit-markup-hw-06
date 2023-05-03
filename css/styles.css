@@ -418,6 +418,9 @@ p {
             Footer
   |============================
 */
+.footer-media {
+  width: 264px;
+}
 .foot-social {
   display: flex;
   justify-items: center;
@@ -939,7 +942,7 @@ p {
   justify-content: center;
   text-align: left;
 
-  max-width: 165px;
+  width: 165px;
   height: 40px;
   padding: 8px 24px;
   gap: 16px;

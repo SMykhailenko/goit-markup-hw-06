@@ -749,7 +749,7 @@ p {
 .modal-title {
   display: block;
   text-align: center;
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 
   color: #2e2f42;
 }
@@ -757,15 +757,15 @@ p {
 .modal-form-label {
   display: block;
   margin-bottom: 4px;
-  padding-top: 8px;
-
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
 
   color: #8e8f99;
 }
-
+.modal-form-label:nth-child(n + 2) {
+  margin-top: 8px;
+}
 .modal-form-field {
   position: relative;
 }

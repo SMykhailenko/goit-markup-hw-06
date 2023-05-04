@@ -36,6 +36,11 @@ h6,
 p {
   margin: 0;
 }
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 
 /**
   |============================
@@ -651,10 +656,6 @@ p {
   transition: transform 250ms var(--cubic-hover);
   color: #f4f4fd;
   background: #4d5ae5;
-}
-
-.img-block {
-  display: block;
 }
 
 .card-box {
